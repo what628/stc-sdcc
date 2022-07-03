@@ -1,3 +1,6 @@
+# git Personal access tokens
+# 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
+
 # tools.
 CC = sdcc
 PACKIHX = packihx
@@ -18,8 +21,9 @@ C_DEFINE = \
 
 C_SOURCES =  \
 main.c \
-src/led.c \
-src/uart_proc.c
+src/led/led.c \
+src/uart/uart_proc.c \
+src/delay/delay.c
 
 # C includes
 C_INCLUDES =  \

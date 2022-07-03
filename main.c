@@ -1,15 +1,7 @@
 #include "stc12.h"
 #include "led.h"
 #include "uart_proc.h"
-
-void delayms(int count)  // /* X1ms */
-{
-    int i,j;
-    for(i=0;i<count;i++){
-        for(j=0;j<1000;j++);
-    }
-}
-
+#include "delay.h"
 
 char __code  MESSAGE[]= "sdcc print...\r\n";
 void ISP_Check(unsigned char tmp)

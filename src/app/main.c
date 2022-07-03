@@ -38,7 +38,7 @@ void Serial_int(void)  __interrupt 4 __using 1
     }
 }
 
-main()
+void main(void)
 {
     unsigned char led_on = 1;
     led_init();
